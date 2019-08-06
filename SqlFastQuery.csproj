@@ -70,6 +70,7 @@
   <ItemGroup>
     <Compile Include="AppFunc.cs" />
     <Compile Include="DbConStrInfo.cs" />
+    <Compile Include="ExtensionFunc.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
