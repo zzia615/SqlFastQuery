@@ -117,8 +117,8 @@ namespace SqlFastQuery
                     tabControl1.SelectedIndex = 1;
                 }
             }
-            if (s_sql.ToLower().StartsWith("delete")|| s_sql.ToLower().StartsWith("insert")|| s_sql.ToLower().StartsWith("update"))
-            {
+            else
+            { 
                 dataGridView1.DataSource = null;
                 try
                 {
