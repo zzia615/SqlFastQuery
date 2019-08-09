@@ -34,7 +34,7 @@ namespace SqlFastQuery
 
         private void button2_Click(object sender, EventArgs e)
         {
-            saveFileDialog1.FileName = "";
+            saveFileDialog1.FileName = table+".xls";
             saveFileDialog1.Filter = "Excel文件(*.xls)|*.xls";
             if (saveFileDialog1.ShowDialog() != DialogResult.OK)
             {
